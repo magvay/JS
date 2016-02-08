@@ -1,0 +1,26 @@
+<html>
+<head><title>Числа Фибоначчи</title></head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"> 
+<style type="text/css">
+	.result { font-weight: bold;}
+	#payment { text-decoration: underline;}
+</style>
+
+	<body>
+		
+		<script type="text/javascript" language="JavaSript">
+			document.write("<h2>Числа Фибоначчи</h2>");
+			for (var i=0, j=1, k=0, fib=0; i < 50; i++, fib=j+k, j=k, k=fib) {
+				document.write("Fibonacci (" + i + ") = " + fib);
+				document.write("<br>");
+
+				
+				alert("Fibonacci (" + i + ") = " + fib);
+			};
+
+
+
+
+		</script>
+	</body>
+</html>
